@@ -26,6 +26,8 @@ return {
     local lspconfig = require("lspconfig")
     local servers = {
       ts_ls = {},
+      cssls = {},
+      html = {},
       emmet_language_server = {
         filetypes = {
           "css",
