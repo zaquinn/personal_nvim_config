@@ -9,6 +9,8 @@ return {
 				"gopls", -- Go
 				"pyright", -- Python
 				"lua_ls", -- Lua
+				"html",
+				"cssls", -- CSS
 			},
 		})
 	end,

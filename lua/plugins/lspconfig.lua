@@ -26,6 +26,8 @@ return {
 		local lspconfig = require("lspconfig")
 		local servers = {
 			ts_ls = {},
+			html = {},
+			cssls = {},
 			zls = {},
 			gopls = {},
 			pyright = {
